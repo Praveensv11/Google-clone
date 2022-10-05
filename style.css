@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: right;
+    margin:0.5rem;
+    align-items: center;
+}
+nav a{
+    padding: 0.5rem;
+    color: rgba(24, 7, 7, 0.925);
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.google-image{
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.google-search{
+   display: flex;
+   align-items: center;
+}
+
+.search-input{
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    box-shadow: 1px 1px 1px 2px gray;
+    border-radius: 6px;
+    border: none;
+}
+.search-input:hover{
+    width: 405px;
+    box-shadow: 1px 1px 1px 3px gray;
+}
