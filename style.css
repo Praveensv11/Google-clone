@@ -24,6 +24,9 @@ nav a:hover{
    align-items: center;
 }
 
+.para-to-change{
+    text-align: center;
+}
 .search-input{
     display: block;
     width: 400px;
